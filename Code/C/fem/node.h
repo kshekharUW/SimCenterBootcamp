@@ -2,11 +2,13 @@
 #define _NODE 
 
 #include <stdio.h>
+#include "constraint.h"
 
 typedef struct node {
   int tag;
   double coord[2];
   double disp[3];
+  Constraint *theConstraints;
   struct node *next;
 } Node;
 
