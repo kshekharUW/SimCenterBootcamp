@@ -20,7 +20,7 @@
       <x>9</x>
       <y>9</y>
       <width>511</width>
-      <height>361</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="title">
@@ -88,9 +88,9 @@
     <widget class="QDateEdit" name="dobdateEdit">
      <property name="geometry">
       <rect>
-       <x>110</x>
+       <x>100</x>
        <y>150</y>
-       <width>261</width>
+       <width>401</width>
        <height>22</height>
       </rect>
      </property>
@@ -108,8 +108,8 @@
     <widget class="QPushButton" name="savePushButton">
      <property name="geometry">
       <rect>
-       <x>170</x>
-       <y>180</y>
+       <x>10</x>
+       <y>175</y>
        <width>171</width>
        <height>32</height>
       </rect>
@@ -131,7 +131,7 @@
       <string>City</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="citylineEdit">
      <property name="geometry">
       <rect>
        <x>110</x>
@@ -210,6 +210,42 @@
       </rect>
      </property>
     </widget>
+    <widget class="QPushButton" name="showPushButton">
+     <property name="geometry">
+      <rect>
+       <x>325</x>
+       <y>175</y>
+       <width>180</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Dude Details</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>219</y>
+      <width>501</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Output</string>
+    </property>
+    <widget class="QTextBrowser" name="outputtextBrowser">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>501</width>
+       <height>121</height>
+      </rect>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -236,7 +272,7 @@
  <tabstops>
   <tabstop>firstNamelineEdit</tabstop>
   <tabstop>addresslineEdit</tabstop>
-  <tabstop>lineEdit</tabstop>
+  <tabstop>citylineEdit</tabstop>
   <tabstop>statecomboBox</tabstop>
   <tabstop>ZIPlineEdit</tabstop>
   <tabstop>dobdateEdit</tabstop>
